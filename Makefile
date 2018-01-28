@@ -14,7 +14,7 @@
 # It depends on the device's resolution.
 # The default value is hdpi.
 #-----------------------------------------------------------------------------
-DENSITY := hdpi
+DENSITY := xhdpi
 
 ##############################################################################
 # The value is used to config the bootanimation.
@@ -54,7 +54,7 @@ vendor_modify_images := boot
 # The default value is Bluetooth.
 # You can configure the apk name in the vendor/system/app or vendor/system/priv-app directory.
 #-----------------------------------------------------------------------------
-vendor_saved_apps := Bluetooth HTMLViewer KeyChain MtkBt PacProcessor PrintSpooler Stk1 UserDictionaryProvider BackupRestoreConfirmation DefaultContainerService ExternalStorageProvider FmRadio FusedLocation InputDevices ManagedProvisioning ProxyHandler SharedStorageBackup Shell TagGoogle WallpaperCropper
+vendor_saved_apps := Bluetooth BluetoothMidiService BookmarkProvider EasterEgg ExtShared HTMLViewer KeyChain PacProcessor PrintRecommendationService PrintSpooler Stk UserDictionaryProvider WAPPushManager WallpaperBackup BackupRestoreConfirmation BlockedNumberProvider CarrierConfig CellBroadcastReceiver DefaultContainerService EmergencyInfo ExternalStorageProvider FMRadio FusedLocation InputDevices ManagedProvisioning MtpDocumentsProvider ProxyHandler SharedStorageBackup Shell StatementService StorageManager WallpaperCropper
 
 ##############################################################################
 # The value decides which vendor apk you want to modify.
@@ -127,8 +127,8 @@ vendor_modify_jars := framework services telephony-common wifi-service
 # The property decide whether hide the soft mainkeys.
 # If 1, hide the soft mainkeys. If 0, display the soft mainkeys.
 # You should configure the property according to your device.
-override_property += \
-    qemu.hw.mainkeys=1 
+#override_property += \
+#    qemu.hw.mainkeys=0
 
 
 # The value of the property ro.flyme.romer will be contained in the ota package name.
@@ -138,8 +138,8 @@ override_property += \
 # The default value is Nexus-6P_Unofficial.
 # You should configure the property according to your device and your ID with replace the "Nexus-6P_Unofficial".
 override_property += \
-    ro.flyme.romer=maharudra108 \
-    ro.product.model_romer=a106_Unofficial
+    ro.flyme.romer=Unofficial \
+    ro.product.model_romer=Pixel_Unofficial
 
 ##############################################################################
 # The value decides which property you will remove from the build.prop.
@@ -155,7 +155,7 @@ override_property += \
 # Set it to be false when you want to escape the verification.
 # Default: true
 #-----------------------------------------------------------------------------
-USE_ASSERTIONS_IN_UPDATER_SCRIPT := false
+#USE_ASSERTIONS_IN_UPDATER_SCRIPT := false
 
 ##############################################################################
 # Defines whether reduces useless resources, only keep the resources of preferred configuration, like current density or locale.
@@ -181,7 +181,7 @@ USE_ASSERTIONS_IN_UPDATER_SCRIPT := false
 # Defines whether build an international version of package.
 # Default: false
 #-----------------------------------------------------------------------------
-PRODUCE_INTERNATIONAL_ROM := true
+#PRODUCE_INTERNATIONAL_ROM := true
 
 ##############################################################################
 # Defines whether use sepolicy inject.
