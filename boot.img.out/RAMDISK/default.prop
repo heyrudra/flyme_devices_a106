@@ -1,7 +1,7 @@
 #
 # ADDITIONAL_DEFAULT_PROPERTIES
 #
-ro.adb.secure=1
+ro.adb.secure=0
 ro.device.cache_dir=/cache
 ro.secure=0
 security.perf_harden=1
