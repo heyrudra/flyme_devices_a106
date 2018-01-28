@@ -57,7 +57,7 @@ vendor_modify_images := boot
 vendor_saved_apps := Bluetooth BluetoothMidiService BookmarkProvider EasterEgg ExtShared HTMLViewer \
                      KeyChain PacProcessor PrintRecommendationService PrintSpooler Stk UserDictionaryProvider WAPPushManager \
                      WallpaperBackup BackupRestoreConfirmation BlockedNumberProvider CarrierConfig CellBroadcastReceiver \
-                     DefaultContainerService EmergencyInfo ExternalStorageProvider FMRadio FusedLocation InputDevices \  
+                     DefaultContainerService EmergencyInfo ExternalStorageProvider FMRadio FusedLocation InputDevices \
                      ManagedProvisioning MtpDocumentsProvider ProxyHandler SharedStorageBackup Shell StatementService StorageManager \
                      WallpaperCropper
  
