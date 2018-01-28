@@ -420,6 +420,8 @@
 /system/bin/fsck\.ntfs	u:object_r:fsck_exec:s0
 /system/bin/mkfs\.f2fs	u:object_r:mkfs_exec:s0
 /system/bin/mkfs\.ntfs	u:object_r:mkfs_exec:s0
+/dev/socket/flymed	u:object_r:flymed_socket:s0
+/system/bin/flymed	u:object_r:flymed_exec:s0
 /dev/MT_pmic_adc_cali	u:object_r:MT_pmic_adc_cali_device:s0
 /dev/block/mmcblk0p13	u:object_r:aed_block_device:s0
 /dev/block/mmcblk0p11	u:object_r:userdata_block_device:s0
