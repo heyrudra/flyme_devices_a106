@@ -59,7 +59,7 @@ vendor_saved_apps := Bluetooth BluetoothMidiService BookmarkProvider EasterEgg E
                      WallpaperBackup BackupRestoreConfirmation BlockedNumberProvider CarrierConfig CellBroadcastReceiver \
                      DefaultContainerService EmergencyInfo ExternalStorageProvider FMRadio FusedLocation InputDevices \
                      ManagedProvisioning MtpDocumentsProvider ProxyHandler SharedStorageBackup Shell StatementService StorageManager \
-                     WallpaperCropper
+                     WallpaperCropper CMSettingsProvider
  
 ##############################################################################
 # The value decides which vendor apk you want to modify.
