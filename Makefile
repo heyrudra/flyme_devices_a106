@@ -59,7 +59,7 @@ vendor_saved_apps := Bluetooth BluetoothMidiService HTMLViewer \
 	BackupRestoreConfirmation DefaultContainerService \
 	ExternalStorageProvider FMRadio FusedLocation \
 	InputDevices ProxyHandler SharedStorageBackup Shell \
-	StatementService StorageManager WallpaperCropper
+	StatementService StorageManager WallpaperCropper CMSettingsProvider
 
 ##############################################################################
 # The value decides which vendor apk you want to modify.
