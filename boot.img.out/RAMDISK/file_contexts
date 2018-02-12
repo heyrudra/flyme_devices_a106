@@ -424,7 +424,8 @@
 /data/misc/mblog(/.*)?   u:object_r:logmisc_data_file:s0
 /data/log_temp(/.*)?     u:object_r:logtemp_data_file:s0
 /data/mdl(/.*)?          u:object_r:mdl_data_file:s0
-
+/dev/socket/flymed      u:object_r:flymed_socket:s0
+/system/bin/flymed      u:object_r:flymed_exec:s0
 /data/misc/sensor/.id                      u:object_r:sensord_data_file:s0
 /data/misc/sensor/sensord.log              u:object_r:sensord_data_file:s0
 #line 1 "vendor/cm/sepolicy/file_contexts"
