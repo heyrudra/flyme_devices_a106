@@ -21,4 +21,5 @@ debug.atrace.tags.enableflags=0
 #
 ro.bootimage.build.date=Thu Feb 8 21:13:47 IST 2018
 ro.bootimage.build.date.utc=1518104627
-ro.bootimage.build.fingerprint=micromax/lineage_a106/a106:6.0.1/MOI10E/daf3277492:userdebug/test-keys
+ro.bootimage.build.fingerprint=google/cm_angler/angler:6.0.1/MOB31K/26e68903ed:userdebug/test-keys
+persist.sys.usb.config=mtp,adb
