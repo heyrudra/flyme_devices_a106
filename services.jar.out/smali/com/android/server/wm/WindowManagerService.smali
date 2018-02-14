@@ -15949,7 +15949,7 @@
     .catchall {:try_start_17 .. :try_end_17} :catchall_0
 
     move-result v30
-    
+
     move-object/from16 v0, p0
 
     invoke-static {v0, v2}, Lcom/android/server/wm/WindowManagerService$FlymeInjector;->isFlymeInterceptWindow(Lcom/android/server/wm/WindowManagerService;Lcom/android/server/wm/WindowState;)Z
@@ -15964,7 +15964,7 @@
 
     move-result v3
 
-    monitor-exit v33
+    monitor-exit v34
 
     return v3
 
