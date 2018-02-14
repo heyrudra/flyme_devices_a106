@@ -78,6 +78,7 @@ vendor_saved_apps := Bluetooth BluetoothMidiService HTMLViewer \
 # and then you can make it by:   make android.policy
 #-----------------------------------------------------------------------------
 vendor_modify_jars := framework services telephony-common wifi-service
+vendor_modify_jars += org.cyanogenmod.platform
 
 ##############################################################################
 # The value decides which board system directory you want to save.
