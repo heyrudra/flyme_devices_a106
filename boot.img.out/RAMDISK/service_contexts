@@ -45,7 +45,19 @@ gfxinfo                                   u:object_r:gfxinfo_service:s0
 graphicsstats                             u:object_r:graphicsstats_service:s0
 hardware                                  u:object_r:hardware_service:s0
 hdmi_control                              u:object_r:hdmi_control_service:s0
-inputflinger                              u:object_r:inputflinger_service:s0
+inputflinger                              u:object_r:inputflinger_servmove_window                               u:object_r:move_window_service:s0
+flyme_packagemanager                      u:object_r:flyme_packagemanager_service:s0
+flyme_theme_service                       u:object_r:flyme_theme_manager_service:s0
+networkmanagement_service_flyme           u:object_r:networkmanagement_service_flyme_service:s0
+flyme_wallpaper                           u:object_r:flyme_wallpaper_service:s0
+flyme_statusbar                           u:object_r:flyme_statusbar_service:s0
+access_control                            u:object_r:access_control_service:s0
+flyme_permission                          u:object_r:access_control_service:s0
+phone_ext                                 u:object_r:radio_service:s0
+call_adapter                              u:object_r:telecom_service:s0
+flyme_perf                                u:object_r:flyme_perf_service:s0
+alphame_server                            u:object_r:alphame_service:s0
+ice:s0
 input_method                              u:object_r:input_method_service:s0
 input                                     u:object_r:input_service:s0
 iphonesubinfo_msim                        u:object_r:radio_service:s0
@@ -130,6 +142,19 @@ wifiscanner                               u:object_r:wifiscanner_service:s0
 wifi                                      u:object_r:wifi_service:s0
 window                                    u:object_r:window_service:s0
 *                                         u:object_r:default_android_service:s0
+move_window                               u:object_r:move_window_service:s0
+flyme_packagemanager                      u:object_r:flyme_packagemanager_service:s0
+flyme_theme_service                       u:object_r:flyme_theme_manager_service:s0
+networkmanagement_service_flyme           u:object_r:networkmanagement_service_flyme_service:s0
+flyme_wallpaper                           u:object_r:flyme_wallpaper_service:s0
+flyme_statusbar                           u:object_r:flyme_statusbar_service:s0
+access_control                            u:object_r:access_control_service:s0
+flyme_permission                          u:object_r:access_control_service:s0
+phone_ext                                 u:object_r:radio_service:s0
+call_adapter                              u:object_r:telecom_service:s0
+flyme_perf                                u:object_r:flyme_perf_service:s0
+alphame_server                            u:object_r:alphame_service:s0
+
 #line 1 "vendor/cm/sepolicy/service_contexts"
 edgegestureservice                        u:object_r:edge_gesture_service:s0
 themes                                    u:object_r:themes_service:s0

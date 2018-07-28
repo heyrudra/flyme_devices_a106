@@ -1,3 +1,4 @@
+
 # Copyright (C) 2012 The Android Open Source Project
 #
 # IMPORTANT: Do not create world writable files or directories.
@@ -10,6 +11,8 @@ import /init.${ro.hardware}.rc
 import /init.usb.configfs.rc
 import /init.${ro.zygote}.rc
 import /init.trace.rc
+
+import /init.flyme.rc
 # Include CM's extra init file
 import /init.cm.rc
 
@@ -716,6 +719,10 @@ service flash_recovery /system/bin/install-recovery.sh
 # update recovery if enabled
 on property:persist.sys.recovery_update=true
     start flash_recovery
+
+service flymed /system/bin/flymed
+    class main
+    socket flymed stream 0660 root system
 
 service racoon /system/bin/racoon
     class main
