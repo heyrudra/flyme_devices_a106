@@ -24,14 +24,17 @@
     .param p1, "context"    # Landroid/content/Context;
 
     .prologue
+    .line 2512
     invoke-direct {p0, p1}, Lcom/android/server/SystemService;-><init>(Landroid/content/Context;)V
 
-    new-instance v0, Lcom/android/server/am/FlymeExtActivityManagerService;
+    .line 2513
+    new-instance v0, Lcom/android/server/am/ActivityManagerService;
 
-    invoke-direct {v0, p1}, Lcom/android/server/am/FlymeExtActivityManagerService;-><init>(Landroid/content/Context;)V
+    invoke-direct {v0, p1}, Lcom/android/server/am/ActivityManagerService;-><init>(Landroid/content/Context;)V
 
     iput-object v0, p0, Lcom/android/server/am/ActivityManagerService$Lifecycle;->mService:Lcom/android/server/am/ActivityManagerService;
 
+    .line 2511
     return-void
 .end method
 

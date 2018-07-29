@@ -47,14 +47,14 @@ vendor_modify_images := boot
 # The default value is nothing.
 # You can configure the file name which relative to the vendor/system directory.
 #-----------------------------------------------------------------------------
-#vendor_remove_files := bin/zchgd
+vendor_remove_files := etc/permissions/org.cyanogenmod.livedisplay.xml
 
 ##############################################################################
 # The value decides the vendor apk which you want to save in the vendor directory for the ota package.
 # The default value is Bluetooth.
 # You can configure the apk name in the vendor/system/app or vendor/system/priv-app directory.
 #-----------------------------------------------------------------------------
-vendor_saved_apps := Bluetooth BluetoothMidiService HTMLViewer KeyChain PicoTts PrintSpooler UserDictionaryProvider BackupRestoreConfirmation DefaultContainerService ExternalStorageProvider FMRadio FusedLocation InputDevices ProxyHandler SharedStorageBackup Shell StatementService WallpaperCropper CMSettingsProvider
+vendor_saved_apps := Bluetooth BluetoothMidiService HTMLViewer KeyChain PicoTts PrintSpooler UserDictionaryProvider BackupRestoreConfirmation DefaultContainerService ExternalStorageProvider FMRadio FusedLocation InputDevices ProxyHandler SharedStorageBackup Shell StatementService WallpaperCropper CMSettingsProvider telresources
 
 ##############################################################################
 # The value decides which vendor apk you want to modify.
@@ -105,7 +105,7 @@ vendor_modify_jars := framework services telephony-common wifi-service org.cyano
 # The command idtoname how to use: first use "apktool d source/system/framework/framework-res.apk other/TMP/framework-res",
 # and then use "idtoname other/TMP/framework-res/res/values/public_master.xml XXXX/smali"(XXXX is the directory where you decode board system apk).
 #-----------------------------------------------------------------------------
-#board_modify_apps := TeleService
+board_modify_apps := TeleService ConnectivitySettings
 
 ##############################################################################
 # The value decides which jar you want to modify, when the jar is based on the board framework jar.

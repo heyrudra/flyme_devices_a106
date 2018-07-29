@@ -36,6 +36,3 @@
 
 .method public abstract onSetDisabled(I)V
 .end method
-
-.method public abstract onNotificationClearForReason(IILjava/lang/String;Ljava/lang/String;III)V
-.end method

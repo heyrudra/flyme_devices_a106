@@ -6,7 +6,6 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/android/server/am/BroadcastQueue$FlymeBroadcastQueueInjector;,
         Lcom/android/server/am/BroadcastQueue$BroadcastHandler;,
         Lcom/android/server/am/BroadcastQueue$AppNotResponding;
     }
