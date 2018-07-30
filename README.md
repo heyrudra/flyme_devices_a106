@@ -27,3 +27,8 @@ ca106
 
 flyme fullota
 ```
+# Working
+```bash
+Appx. everything for me.
+You are welcome to find issue and notify me .
+```
