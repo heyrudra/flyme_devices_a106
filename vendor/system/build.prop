@@ -49,7 +49,7 @@ ro.cm.device=a106
 # system.prop for a106 by Monty
 #
 service.adb.root=1
-ro.sf.lcd_density=220
+ro.sf.lcd_density=200
 ro.sf.hwrotation=180
 wifi.interface=wlan0
 persist.mtk.aee.aed=on
